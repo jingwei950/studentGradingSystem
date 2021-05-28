@@ -18,7 +18,7 @@ function AddStudent(){
 
     if(name != "end")
     {
-      var marks = rl.question("\n Enter your result: ");
+      var marks = rl.question(" Enter your marks: ");
       var grade = Convert2Grade(marks);
 
       //New student
